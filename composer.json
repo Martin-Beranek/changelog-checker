@@ -2,6 +2,7 @@
     "name": "tastysoul/changelog-checker",
     "type": "composer-plugin",
     "description": "Composer plugin to check changelog files for breaking changes",
+    "license": "MIT",
     "keywords": [
         "php",
         "package",
