@@ -1,5 +1,8 @@
 # Changelog Checker
 Composer plugin to check changelog files for breaking changes.
+<img width="1119" height="388" alt="image" src="https://github.com/user-attachments/assets/0e3d2162-9795-4846-91e9-3b574f601e9d" />
+Displays warnings about all (or selected plugins) breaking changes when updating packages.
+Option to write changes to a file (maybe to check in PRs ...). 
 
 ## Installation
 
