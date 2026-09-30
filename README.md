@@ -4,14 +4,14 @@ Composer plugin to check changelog files for breaking changes.
 ## Installation
 
 ```bash
-composer require efabrica/changelog-checker --dev
+composer require tastysoul/changelog-checker --dev
 ```
 
 composer.json should contain the following configuration to allow the plugin to run:
 ```json
 "config": {
     "allow-plugins": {
-        "efabrica/changelog-checker": true
+        "tastysoul/changelog-checker": true
     }
 }
 ```

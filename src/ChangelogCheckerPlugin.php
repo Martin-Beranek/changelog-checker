@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Efabrica\ChangelogChecker;
+namespace TastySoul\ChangelogChecker;
 
 use Composer\Composer;
 use Composer\DependencyResolver\Operation\UpdateOperation;
@@ -12,7 +12,7 @@ use Composer\Installer\PackageEvents;
 use Composer\IO\IOInterface;
 use Composer\Plugin\Capable;
 use Composer\Plugin\PluginInterface;
-use Efabrica\ChangelogChecker\Commands\CheckChangelogCommand;
+use TastySoul\ChangelogChecker\Commands\CheckChangelogCommand;
 use function array_keys;
 use function in_array;
 use function is_array;
@@ -48,7 +48,7 @@ class ChangelogCheckerPlugin implements PluginInterface, Capable, EventSubscribe
     public function getCapabilities(): array
     {
         return [
-            'Composer\Plugin\Capability\CommandProvider' => 'Efabrica\ChangelogChecker\Commands\CommandProvider',
+            'Composer\Plugin\Capability\CommandProvider' => 'TastySoul\ChangelogChecker\Commands\CommandProvider',
         ];
     }
 

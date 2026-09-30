@@ -1,16 +1,17 @@
 {
-    "name": "efabrica/changelog-checker",
+    "name": "tastysoul/changelog-checker",
     "type": "composer-plugin",
     "description": "Composer plugin to check changelog files for breaking changes",
     "keywords": [
         "php",
         "package",
-        "changelog"
+        "changelog",
+        "breaking changes"
     ],
     "readme": "README.md",
     "autoload": {
         "psr-4": {
-            "Efabrica\\ChangelogChecker\\": "src/"
+            "TastySoul\\ChangelogChecker\\": "src/"
         }
     },
     "require": {
@@ -22,7 +23,7 @@
         "phpstan/phpstan": "^2.2"
     },
     "extra": {
-        "class": "Efabrica\\ChangelogChecker\\ChangelogCheckerPlugin",
+        "class": "TastySoul\\ChangelogChecker\\ChangelogCheckerPlugin",
         "changelog-checker": {
             "plugins": []
         }

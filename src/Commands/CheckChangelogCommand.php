@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Efabrica\ChangelogChecker\Commands;
+namespace TastySoul\ChangelogChecker\Commands;
 
 use Composer\Command\BaseCommand;
 use RecursiveDirectoryIterator;
