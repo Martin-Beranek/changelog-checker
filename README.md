@@ -59,5 +59,5 @@ composer update
 Or with command
 
 ```bash
-composer changelog-checker:check "your/package:1.0.0"
+composer changelog:check "your/package:1.0.0"
 ```
