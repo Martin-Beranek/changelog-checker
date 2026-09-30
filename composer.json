@@ -1,0 +1,30 @@
+{
+    "name": "efabrica/changelog-checker",
+    "type": "composer-plugin",
+    "description": "Composer plugin to check changelog files for breaking changes",
+    "keywords": [
+        "php",
+        "package",
+        "changelog"
+    ],
+    "readme": "README.md",
+    "autoload": {
+        "psr-4": {
+            "Efabrica\\ChangelogChecker\\": "src/"
+        }
+    },
+    "require": {
+        "ext-ctype": "*",
+        "composer-plugin-api": "^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "^2.0",
+        "phpstan/phpstan": "^2.2"
+    },
+    "extra": {
+        "class": "Efabrica\\ChangelogChecker\\ChangelogCheckerPlugin",
+        "changelog-checker": {
+            "plugins": []
+        }
+    }
+}
